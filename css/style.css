@@ -1,0 +1,109 @@
+img {
+    margin: 25px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: start;
+    width: 45%;
+    height: auto;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color1);
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.principal {
+    display: flex;
+    height: 100%;
+    margin-right: 10px;
+}
+
+
+:root {
+    --color1: #d6c3c9;
+    --color2: #b49082;
+    --color3: #5d261f;
+    --color4: #846230;
+    --color5: #232222;
+    --red:red;
+    --margen: 20px;
+}
+
+body>.principal{
+    margin: 0;
+}
+.content {
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-left: 20px;
+    margin-right: 0px ;
+}
+
+.principal>.content,ul>li{
+    color: var(--color5);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+hr{
+    margin-right: var(--margen);
+}
+
+.imagen_portada {
+    display: flex;
+
+    width: 50%;
+    height: auto;
+}
+
+.foto_logo {
+    margin-top: 20px;
+    width: 200px;
+    height: auto;
+    margin-top: 150%;
+}
+/*
+.imagen_mail {
+    width: 70%;
+}
+
+.imagen_mail2 {
+    width: 80%;
+} */
+
+/* .div_mail{
+    display: flex;
+    justify-content: center;
+} */
+
+.secciones {
+    text-align: center;
+    background-color: var(--color3);
+    color: var(--color1);
+    border-radius: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.centrados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Manual</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+    <link rel="stylesheet" href="css/sidebar.css">
+</head>
+
+<body>
+
+    <div class="principal">
+
+        <button id="btn-activar-sidebar-id" class="btn-activar-sidebar" onclick="abrirIndice()">></button>
+        <div id="sidebar-id" class="sidebar">
+
+            <ul>
+
+                <li><b>Index</b>
+                    <button id="btn-sidebar-id" class="btn-sidebar" onclick="cerrarIndice()">x</button>
+                </li>
+
+                <ul type="circle" class="no-lista">
+                    <li><a href="#portada">Cover</a></li>
+                    <li><a href="#seccion1">Login</a></li>
+                    <li><a href="#seccion2">User Registration</a></li>
+                    <li><a href="#seccion3">Selection Menu</a></li>
+                    <li><a href="#seccion4">FTP Window</a></li>
+                    <li><a href="#seccion5">Email Window</a></li>
+                    <li><a href="#seccion6">Settings Window</a></li>
+                    <li><a href="#seccion7">About</a></li>
+                </ul>
+            </ul>
+            <img src="imagenes/logo.png" class="imagen_portada foto_logo">
+            <a href="index.html">
+                <img src="imagenes/botonIngles.png" alt="">
+            </a>
+        </div>
+
+        <div class="content">
+            <div>
+                <img src="imagenes/logo.png" class="imagen_portada centrados">
+            </div>
+            <h2 id="seccion1" class="secciones">Login</h2>
+            <div>
+                <p>
+                    <img src="imagenes/login.png" class="centrados">
+
+                <h4>The login screen allows access to the application. Below is a basic explanation of its functionality:</h4>
+
+                <ul>
+                    <li>Username: Enter your username in the specified field.</li>
+                    <li>Password: Enter your password in the corresponding field.</li>
+                    <li>"Ok" Button: Click this button to confirm the data and proceed.</li>
+                    <li>"Cancel" Button: Click this button to exit the application if you don't wish to continue.</li>
+                </ul>
+
+                <u>Note: If the credentials are correct, access will be granted. Otherwise, you will need to verify the entered information.</u>
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion2" class="secciones">User Registration</h2>
+            <div>
+                <p>
+                    <img src="imagenes/registro.png" class="centrados">
+
+                <h4>This window allows a user to register in the application by entering their details, which are saved in the database:</h4>
+
+                <ul>
+                    <li>Email: Field to enter your email.</li>
+                    <li>First Name: Field to enter your real first name.</li>
+                    <li>Last Name: Field to enter your surname.</li>
+                    <li>DNI: Field to enter the DNI (ID number).</li>
+                    <li>Alias: Field to enter your alias.</li>
+                    <li>Password: Field to enter your password.</li>
+                </ul>
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion3" class="secciones">Selection Menu</h2>
+            <div>
+                <img src="imagenes/seleccion.png" class="centrados">
+
+                <p>
+                <h4>In this window, the user can choose which action to perform with the program. The available options are as follows:</h4>
+                <ul>
+                    <li>FTP System
+                        <ul>
+                            <li>Allows access to the FTP system to manage files (upload, download, or organize content).</li>
+                        </ul>
+                    </li>
+                    <li>Email System
+                        <ul>
+                            <li>Grants access to the email system where you can send and receive messages.</li>
+                        </ul>
+                    </li>
+                    <li>Settings
+                        <ul>
+                            <li>Allows access to configuration options to adjust program preferences.</li>
+                        </ul>
+                    </li>
+                    <li>Company Information
+                        <ul>
+                            <li>Displays information related to the company or program details.</li>
+                        </ul>
+                    </li>
+                </ul>
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion4" class="secciones">FTP Window</h2>
+            <div>
+                <img src="imagenes/ftp.png" class="centrados">
+                <p>
+                    Represents a graphical user interface (GUI) designed for a file management system based on <strong>FTP (File Transfer Protocol)</strong>. This system allows users to manage files and directories on a remote server through displayed options and functionalities.
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion5" class="secciones">Email Window</h2>
+            <div>
+                <p>
+                    <strong>The Email Window consists of two windows:</strong>
+                    <img src="imagenes/mail.png" alt="" class="imagen_mail centrados">
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion6" class="secciones">Settings Window</h2>
+            <div>
+                <p>
+                    <strong>Personal User Settings Window:</strong>
+                    <img src="imagenes/config.png" class="centrados">
+                    <strong>Purpose:</strong> Allows a user to configure and modify their personal information within the system.
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion7" class="secciones">About</h2>
+            <div>
+                <img src="imagenes/acercade.png" class="centrados">
+                <br>
+                <hr><br>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

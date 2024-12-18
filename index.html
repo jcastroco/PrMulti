@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual de Usuario</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="imagenes/logo.png">
+    <link rel="stylesheet" href="css/sidebar.css">
+
+
+</head>
+
+<body>
+
+    <div class="principal">
+
+        <button id="btn-activar-sidebar-id" class="btn-activar-sidebar" onclick="abrirIndice()">></button>
+        <div id="sidebar-id" class="sidebar">
+
+            <ul>
+
+                <li><b>Indice</b>
+                    <button id="btn-sidebar-id" class="btn-sidebar" onclick="cerrarIndice()">x</button>
+                </li>
+
+                <ul type="circle" class="no-lista">
+                    <li><a href="#portada">Portada</a></li>
+                    <li><a href="#seccion1">Inicio de sesion</a></li>
+                    <li><a href="#seccion2">Registro de usuario</a></li>
+                    <li><a href="#seccion3">Menu selecci&oacuten</a></li>
+                    <li><a href="#seccion4">Ventana FTP</a></li>
+                    <li><a href="#seccion5">Ventana Email</a></li>
+                    <li><a href="#seccion6">Ventana Configuraci&oacuten</a></li>
+                    <li><a href="#seccion7">Acerca de</a></li>
+                </ul>
+            </ul>
+            <a href="indexeng.html">
+                <img src="imagenes/botonIngles.png" alt="">
+            </a>
+            <img src="imagenes/logo.png" class="imagen_portada foto_logo">
+        </div>
+
+
+
+
+
+        <div class="content">
+            <div>
+                <img src="imagenes/logo.png" class="imagen_portada centrados">
+            </div>
+            <h2 id="seccion1" class="secciones">Login</h2>
+            <div>
+
+                <p>
+                    <img src="imagenes/login.png" class="centrados">
+
+                <h4>La pantalla de inicio de sesión permite acceder a la aplicación. A continuación, se explica su
+                    funcionamiento básico:</h4>
+
+                <ul>
+                    <li><b>Username:</b> Escribe tu nombre de usuario en el campo indicado.</li>
+                    <li><b>Contrasena:</b> Introduce tu contraseña en el campo correspondiente.</li>
+                    <li><b>Botón "Ok":</b> Haz clic en este botón para confirmar los datos y continuar.</li>
+                    <li><b>Botón "Cancelar":</b> Si no quieres continuar, haz clic en este botón para cerrar la aplicación.</li>
+                </ul>
+
+                <u>Nota: Si los datos son correctos, se te permitirá acceder. Si no, tendrás que revisar la información
+                    ingresada.</u>
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion2" class="secciones">Registro de usuario</h2>
+            <div>
+
+                <p>
+                    <img src="imagenes/registro.png" class="centrados">
+
+                <h4>Esta ventana hace que un usuario se registre en la aplicación introduciendo sus datos,
+                    los cuales se guardan en la base de datos:</h4>
+
+                <ul>
+                    <li><b>Correo: </b>Campo para introducir tu correo electronico.</li>
+                    <li><b>Nombre: </b>Campo para introducir tu nombre real.</li>
+                    <li><b>Apellidos: </b>Campo para introducir los apellidos.</li>
+                    <li><b>DNI: </b>Campo para introducir el DNI.</li>
+                    <li><b>Alias: </b>Campo para introducir tu alias.</li>
+                    <li><b>Contrasena: </b>Campo para introducir tu contrasena.</li>
+
+                </ul>
+                </p>
+            </div>
+
+            <br>
+            <hr><br>
+
+            <h2 id="seccion3" class="secciones">Menu Selecci&oacuten</h2>
+            <div>
+                <img src="imagenes/seleccion.png" class="centrados">
+                <p>
+                    <h4>En esta ventana, el usuario puede elegir qué acción realizar con el programa.
+                        Las opciones disponibles son las siguientes:</h4>
+                    <ul>
+                        <li><b>Sistema FTP</b>
+                            <ul>
+                                <li>Permite acceder al sistema FTP para gestionar archivos (subir, descargar o administrar
+                                    contenido).</li>
+                            </ul>
+                        </li>
+                        <li><b>Sistema de correos</b>
+                            <ul>
+                                <li>Da acceso al sistema de correos donde puedes enviar y recibir mensajes.</li>
+                            </ul>
+                        </li>
+                        <li><b>Configuración</b>
+                            <ul>
+                                <li>Permite acceder a las opciones de configuración para ajustar las preferencias del
+                                    programa.
+                                </li>
+                            </ul>
+                        </li>
+                        <li><b>Información de la empresa</b>
+                            <ul>
+                                <li>Muestra información relacionada con la empresa o detalles sobre el programa.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+                
+
+            </div>
+            <br>
+                <hr><br>
+            <h2 id="seccion4" class="secciones">Ventana FTP</h2>
+            <div>
+
+                <img src="imagenes/ftp.png" class="centrados">
+                <p>
+                    Representa una interfaz gráfica de usuario (GUI) diseñada para un sistema de gestión de archivos
+                    basado
+                    en
+                    <strong>FTP (File Transfer Protocol)</strong>. Este sistema facilita a los usuarios la
+                    administración de
+                    archivos y
+                    directorios en un servidor remoto mediante las opciones y funcionalidades mostradas en pantalla.
+
+                <h3>Descripción de la Interfaz</h3>
+                <ul>
+                    <li>
+                        <strong>Botón "Reiniciar":</strong>
+                        Permite al usuario <em>actualizar</em> la lista de archivos y directorios que se muestran en el
+                        árbol de
+                        archivos del sistema. Esto garantiza que cualquier cambio realizado, como la creación,
+                        eliminación o
+                        modificación de archivos, sea reflejado en tiempo real.
+                    </li>
+                    <li>
+                        <strong>Caja de texto y Botón "Rename":</strong>
+                        Facilita la <em>renombración</em> de un archivo o directorio seleccionado. El usuario puede
+                        introducir
+                        un nuevo nombre en la caja de texto y, al pulsar "Rename", el sistema ejecutará la acción.
+                    </li>
+                    <li>
+                        <strong>Árbol de Archivos (JTree):</strong>
+                        El árbol de archivos muestra la <em>estructura jerárquica</em> de directorios y archivos
+                        disponibles
+                        en
+                        el servidor FTP. En el ejemplo de la imagen, se observan tres carpetas principales:
+                        <ul>
+                            <li>colors</li>
+                            <li>sports</li>
+                            <li>food</li>
+                        </ul>
+                        Estas carpetas pueden contener más archivos o subdirectorios, representando el sistema
+                        organizativo
+                        del
+                        servidor.
+                    </li>
+                    <li>
+                        <strong>Botones de Funciones Principales:</strong>
+                        A la izquierda de la interfaz, hay una serie de botones que facilitan diferentes acciones de
+                        gestión
+                        de
+                        archivos y directorios:
+                        <ul>
+                            <li><strong>Crear directorio:</strong> Permite <em>crear un nuevo directorio</em> dentro del
+                                servidor FTP.</li>
+                            <li><strong>Borrar directorio:</strong> Facilita la <em>eliminación</em> de un directorio
+                                seleccionado. Es importante asegurarse de que el directorio no contenga archivos antes
+                                de
+                                borrarlo, dependiendo de las reglas del servidor.</li>
+                            <li><strong>Modificar directorio:</strong> Permite <em>modificar atributos</em> o
+                                configuraciones de
+                                un
+                                directorio existente, como permisos de acceso.</li>
+                            <li><strong>Eliminar archivo:</strong> Proporciona la funcionalidad de <em>eliminar un
+                                    archivo</em>
+                                seleccionado del servidor.</li>
+                            <li><strong>Descargar archivo:</strong> Permite <em>descargar un archivo</em> desde el
+                                servidor
+                                FTP
+                                al
+                                sistema local del usuario.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Botón "Salir":</strong>
+                        Finaliza la sesión y <em>cierra la aplicación</em>.
+                    </li>
+                </ul>
+
+                <h3>Funcionalidad General del Sistema</h3>
+
+                Este sistema de gestión FTP proporciona una <em>interfaz amigable</em> que facilita al usuario
+                interactuar
+                con archivos
+                y directorios remotos sin necesidad de usar comandos FTP en una terminal. Entre sus funcionalidades
+                clave se
+                incluyen:
+
+                <ul>
+                    <li><strong>Navegación visual:</strong> Permite explorar la estructura del servidor FTP de forma
+                        intuitiva.
+                    </li>
+                    <li><strong>Gestión de directorios:</strong> Creación, eliminación y modificación de directorios.
+                    </li>
+                    <li><strong>Administración de archivos:</strong> Descarga, eliminación y renombramiento de archivos.
+                    </li>
+                    <li><strong>Sincronización rápida:</strong> La opción "Reload" actualiza la lista de archivos y
+                        directorios
+                        en tiempo real.</li>
+                </ul>
+
+                <h3>Usabilidad</h3>
+
+                La interfaz gráfica simplifica el uso del protocolo FTP, especialmente para usuarios que no están
+                familiarizados con
+                herramientas basadas en línea de comandos. Además, proporciona botones claramente etiquetados que
+                permiten
+                ejecutar
+                acciones comunes de manera rápida y eficiente.
+
+                En resumen, este sistema <strong>automatiza y agiliza</strong> las tareas de administración de
+                archivos
+                y
+                directorios en
+                un servidor FTP, ofreciendo una solución práctica y visual para la gestión remota de datos.
+                </p>
+
+            </div>
+            <br>
+            <hr><br>
+            <h2 id="seccion5" class="secciones">Ventana Email</h2>
+            <div>
+
+                <p>
+                    <strong>La Ventana Email consta de dos ventanas:</strong>
+                    <!-- <div class="div_mail"> -->
+                    <!-- <div> -->
+                    <img src="imagenes/mail.png" alt="" class="imagen_mail centrados">
+                    <!-- </div> -->
+                    <!-- <div> -->
+
+                    <strong>La primera ventana contiene la gestión de correos del usuario,
+                        <br>donde se pueden usar las siguientes funciones.
+                    </strong>
+
+
+
+                <ul>
+                    <li><b>Nuevo Correo: </b>Crear nuevo correo
+                    </li>
+                    <li><b>Bandeja de Entrada: </b>Acceder a la bandeja de entrada de correos</li>
+                    <li><b>No leidos: </b>Accede a la lista de correos sin leer </li>
+                    <li><b>Enviados: </b>Accede a la lista de correos enviados</li>
+                    <li><b>Borradores: </b> Accede a la lista de borradores</li>
+                    <li><b>Spam: </b>Accede a la lista de correos no deseados</li>
+                    <li><b>Basura: </b>Accede a la lista de correos eliminados</li>
+
+                </ul>
+
+
+                <!-- </div> -->
+                <!-- </div> -->
+                <br>
+                <!-- <div class="div_mail"> -->
+                <!-- <div> -->
+                <img src="imagenes/mail2.png" alt="" class="imagen_mail2 centrados">
+                <!-- </div> -->
+                <!-- <div> -->
+                <strong> La segunda es la ventana de envío,
+                    <br>donde se pueden añadir archivos al correo
+                </strong>
+                <ul>
+                    <li><b>Para: </b> Destinatario del correo</h4>
+                    </li>
+                    <li><b>Asunto: </b>Asunto del correo</li>
+                    <li><b>Mensaje: </b>Contenido del correo</li>
+                    <li><b>Anadir Archivo: </b>Boton para anadir un archivo al correo</li>
+                    <li><b>Enviar: </b>Boton para enviar el correo</li>
+                    <li><b>Cancelar: </b>Boton para cancelar el email y volver a la vista anterior</li>
+                </ul>
+                <!-- </div> -->
+                <!-- </div> -->
+                </p>
+            </div>
+            <br>
+            <hr><br>
+            <h2 id="seccion6" class="secciones">Ventana Configuracion</h2>
+            <div>
+
+                <p><strong>Ventana configuracion de Usuario Personal:</strong>
+                    <img src="imagenes/config.png" class="centrados">
+                    <strong>Objetivo:</strong> Permite que un usuario configure y modifique su propia información
+                    personal dentro del sistema.
+                    Campos Disponibles:
+                <ul>
+                    <li>
+                        <strong>Alias:</strong>
+                        El usuario puede establecer o modificar su apodo o alias dentro del sistema.
+                    </li>
+                    <li>
+                        <strong>Nombre:</strong> Campo donde el usuario escribe su nombre real.
+                    </li>
+                    <li><strong>Last Name (Apellido):</strong> Permite ingresar o actualizar los apellidos del usuario.
+                    </li>
+                    <li><strong>Correo:</strong> Campo destinado a la dirección de correo electrónico personal o de
+                        trabajo.
+                    </li>
+                    <li><strong>Contarseña:</strong> Facilita la creación o cambio de la contraseña de
+                        acceso.
+                    </li>
+                    <li><strong> DNI:</strong> Sección para el Documento Nacional de Identidad o un número único de
+                        identificación.</li>
+                    <li><strong>Rol Description (Descripción del Rol):</strong> Campo donde se puede especificar el rol
+                        o responsabilidad asignada al usuario dentro de la organización.
+                    </li>
+                    <li> <strong>Botones Disponibles:</strong>
+                        <ul type="">
+                            <li><strong>Eliminar:</strong> Permite borrar el usuario o eliminar ciertos
+                                datos del sistema.
+                            </li>
+                            <li><strong>Modificar:</strong> Opción para editar los campos de información ya
+                                existentes.
+                            </li>
+                            <li><strong>Salir:</strong> Cierra la ventana o regresa a la interfaz principal.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <br>
+                <strong>Ventana Configuración de Admin para Gestión de Usuarios</strong>
+                <img src="imagenes/config2.png" class="centrados">
+                <ul>
+                    <li><strong>Estructura de la Tabla:</strong>
+                        <ul>
+                            <li>
+                                <strong>Nombre:</strong> Muestra el nombre de cada usuario registrado en la base de
+                                datos.
+                            </li>
+                            <li>
+                                <strong>Correo:</strong> Correo electrónico del usuario para contacto o recuperación de
+                                cuenta.
+                            </li>
+                            <li><strong>Rol:</strong> Campo que describe la función específica del usuario dentro de la
+                                empresa
+                                (por ejemplo:
+                                trabajador,
+                                supervisor, gerente).
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Funciones Principales:</strong>
+                        <ul>
+                            <li>
+                                <strong>Crear:</strong> Permite agregar nuevos usuarios a la base de datos.
+                            </li>
+                            <li>
+                                <strong>Modificar:</strong> Facilita la actualización de la información existente de
+                                unusuario.
+                            </li>
+                            <li> <strong>Borrar:</strong> Elimina a un usuario específico de la base de datos.
+                            </li>
+                            <li>
+                                <strong>Volver:</strong> Regresa a la interfaz principal o anterior.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                </p>
+            </div>
+            <br>
+            <hr><br>
+            <h2 id="seccion7" class="secciones">Acerca De</h2>
+            <div>
+
+                <img src="imagenes/acercade.png" class="centrados">
+                <br>
+                <hr><br>
+            </div>
+
+            <!-- Agrega más secciones según sea necesario -->
+        </div>
+
+
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
